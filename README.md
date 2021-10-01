@@ -1,2 +1,4 @@
 # ECE480_APP
 Cancer symptom management app that is compatible with iOS devises. 
+
+Two of the most debilitating symptoms of cancer include sleep/wake disturbance and fatigue occurring during chemotherapy. This is due to the disruptions in circadian rhythm caused by chemotherapy required to treat certain cases of cancer. Circadian rhythm is the natural internal process that regulates sleep cycles. Light is one of the biggest factors in regulating circadian rhythm, and we aim to create a smartphone application that assists in bright light therapy by adhering to a strict schedule in an effort to better manage sleep/wake disturbance and fatigue. Bright light therapy is typically performed by using bright lights to create stimuli in cells of the retina that in turn travel to the part of the brain that helps regulate circadian rhythm. Along with assisting in light therapy, this application will also provide a log to better track sleep and wake times.
