@@ -25,8 +25,9 @@ struct HomePageView: View {
                     
                     VStack{
                         HStack{
-                            Button(action: {}, label: {
+                            Button(action: {}, label: {NavigationLink(destination: WakeUpView()){
                                 Image("sun").resizable().frame(width: 100, height:100)
+                                }
                             })
                             Text("  ")
                             Button(action: {}, label: {
@@ -161,8 +162,3 @@ struct HomePageView_Previews: PreviewProvider {
     }
 }
 
-struct HomePageView_Previews_2: PreviewProvider {
-    static var previews: some View {
-        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
-    }
-}
