@@ -11,6 +11,8 @@
 		C14E7C80271898DD0010C091 /* WakeUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14E7C7F271898DD0010C091 /* WakeUp.storyboard */; };
 		C14E7C8327189FD70010C091 /* NapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14E7C8227189FD70010C091 /* NapView.swift */; };
 		C14E7C872718A13E0010C091 /* Nap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14E7C862718A13E0010C091 /* Nap.storyboard */; };
+		C14E7C892718A6490010C091 /* BedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14E7C882718A6490010C091 /* BedTimeView.swift */; };
+		C14E7C8B2718A6730010C091 /* BedTime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14E7C8A2718A6730010C091 /* BedTime.storyboard */; };
 		CEC183C3270F741300D13787 /* Sleep_LogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC183C2270F741300D13787 /* Sleep_LogApp.swift */; };
 		CEC183C5270F741300D13787 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC183C4270F741300D13787 /* ContentView.swift */; };
 		CEC183C7270F741700D13787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC183C6270F741700D13787 /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 		C14E7C81271898EF0010C091 /* WakeUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WakeUp.storyboard; sourceTree = "<group>"; };
 		C14E7C8227189FD70010C091 /* NapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NapView.swift; sourceTree = "<group>"; };
 		C14E7C862718A13E0010C091 /* Nap.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Nap.storyboard; sourceTree = "<group>"; };
+		C14E7C882718A6490010C091 /* BedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedTimeView.swift; sourceTree = "<group>"; };
+		C14E7C8A2718A6730010C091 /* BedTime.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BedTime.storyboard; sourceTree = "<group>"; };
 		CEC183BF270F741300D13787 /* Sleep Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleep Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC183C2270F741300D13787 /* Sleep_LogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_LogApp.swift; sourceTree = "<group>"; };
 		CEC183C4270F741300D13787 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,10 +72,12 @@
 				CEC183D0270F752500D13787 /* HomePageView.swift */,
 				DA1398622716E13E00F3E518 /* LogView.swift */,
 				CEC183C4270F741300D13787 /* ContentView.swift */,
-				C14E7C8227189FD70010C091 /* NapView.swift */,
-				C14E7C862718A13E0010C091 /* Nap.storyboard */,
 				C1427D9C271896BE003055C0 /* WakeUpView.swift */,
 				C14E7C81271898EF0010C091 /* WakeUp.storyboard */,
+				C14E7C8227189FD70010C091 /* NapView.swift */,
+				C14E7C862718A13E0010C091 /* Nap.storyboard */,
+				C14E7C882718A6490010C091 /* BedTimeView.swift */,
+				C14E7C8A2718A6730010C091 /* BedTime.storyboard */,
 				CEC183C6270F741700D13787 /* Assets.xcassets */,
 				CEC183C8270F741700D13787 /* Preview Content */,
 			);
@@ -149,6 +155,7 @@
 				CEC183CA270F741700D13787 /* Preview Assets.xcassets in Resources */,
 				C14E7C80271898DD0010C091 /* WakeUp.storyboard in Resources */,
 				CEC183C7270F741700D13787 /* Assets.xcassets in Resources */,
+				C14E7C8B2718A6730010C091 /* BedTime.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC183C5270F741300D13787 /* ContentView.swift in Sources */,
+				C14E7C892718A6490010C091 /* BedTimeView.swift in Sources */,
 				CEC183D1270F752500D13787 /* HomePageView.swift in Sources */,
 				C14E7C8327189FD70010C091 /* NapView.swift in Sources */,
 				DA1398632716E13E00F3E518 /* LogView.swift in Sources */,

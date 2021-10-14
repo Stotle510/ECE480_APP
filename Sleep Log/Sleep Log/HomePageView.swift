@@ -35,8 +35,9 @@ struct HomePageView: View {
                             }
                             })
                             Text("  ")
-                            Button(action: {}, label: {
+                            Button(action: {}, label: {NavigationLink(destination: BedTimeView()){
                                 Image("moon").resizable().frame(width: 100, height:100)
+                            }
                             })
                         }
                         
