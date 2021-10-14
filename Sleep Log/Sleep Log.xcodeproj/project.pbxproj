@@ -12,6 +12,7 @@
 		CEC183C7270F741700D13787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC183C6270F741700D13787 /* Assets.xcassets */; };
 		CEC183CA270F741700D13787 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC183C9270F741700D13787 /* Preview Assets.xcassets */; };
 		CEC183D1270F752500D13787 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC183D0270F752500D13787 /* HomePageView.swift */; };
+		DA1398632716E13E00F3E518 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1398622716E13E00F3E518 /* LogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		CEC183C6270F741700D13787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC183C9270F741700D13787 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEC183D0270F752500D13787 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		DA1398622716E13E00F3E518 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				CEC183C2270F741300D13787 /* Sleep_LogApp.swift */,
 				CEC183D0270F752500D13787 /* HomePageView.swift */,
+				DA1398622716E13E00F3E518 /* LogView.swift */,
 				CEC183C4270F741300D13787 /* ContentView.swift */,
 				CEC183C6270F741700D13787 /* Assets.xcassets */,
 				CEC183C8270F741700D13787 /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				CEC183C5270F741300D13787 /* ContentView.swift in Sources */,
 				CEC183D1270F752500D13787 /* HomePageView.swift in Sources */,
+				DA1398632716E13E00F3E518 /* LogView.swift in Sources */,
 				CEC183C3270F741300D13787 /* Sleep_LogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

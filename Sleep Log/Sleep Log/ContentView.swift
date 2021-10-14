@@ -18,19 +18,23 @@ struct ContentView: View {
         NavigationView {
             VStack{
                 Text("Successfully Logged In")
+                    .padding()
+                    .frame(width: 500.0, height: 200.0)
                     .font(.largeTitle)
-                    .fontWeight(.medium)
                     .foregroundColor(Color.blue)
                 Spacer()
-                NavigationLink(destination: HomePageView()) {
+                NavigationLink(destination: HomePageView()            .navigationBarBackButtonHidden(true)
+                    .navigationBarBackButtonHidden(true)
+                    .navigationBarHidden(true)) {
                     Text("Continue To Home Screen")
                         .padding()
-                        .frame(width: 200.0, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)
+                        .frame(width: 200.0, height: 200.0)
                         .foregroundColor(.pink)
                         .cornerRadius(40)
                         .font(.title)
                 }
             }
+            .edgesIgnoringSafeArea([.top, .bottom])
         }
     }
 }
