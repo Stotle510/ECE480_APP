@@ -131,7 +131,12 @@ struct HomePageView: View {
                     
                     ZStack{
                         Button(action: {}, label: {
-                            Image("bluebutton").resizable().frame(width: 120, height:50)
+                            NavigationLink(destination: ContentView()
+                            .navigationBarBackButtonHidden(true)
+                            .navigationBarBackButtonHidden(true)
+                            .navigationBarHidden(true)){
+                                Image("bluebutton").resizable().frame(width: 120, height:50)
+                            }
                         })
                         Text("Log Out")
                             .font(.title2)
