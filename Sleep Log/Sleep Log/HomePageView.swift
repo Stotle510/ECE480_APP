@@ -30,8 +30,9 @@ struct HomePageView: View {
                                 }
                             })
                             Text("  ")
-                            Button(action: {}, label: {
+                            Button(action: {}, label: {NavigationLink(destination: NapView()){
                                 Image("zzz").resizable().frame(width: 100, height:100)
+                            }
                             })
                             Text("  ")
                             Button(action: {}, label: {
