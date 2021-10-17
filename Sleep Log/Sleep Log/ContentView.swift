@@ -17,7 +17,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack{
-                Text("Successfully Logged In")
+                Text("Log-In: enter username")
                     .padding()
                     .frame(width: 500.0, height: 200.0)
                     .font(.largeTitle)

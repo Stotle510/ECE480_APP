@@ -11,9 +11,9 @@ struct HomePageView: View {
     var body: some View {
         NavigationView{
             ZStack{
-                Image("background").ignoresSafeArea()
-                
                 VStack{
+                    Text(" ")
+                        .padding(.all, 30.0)
                     
                     Text("My Daily Log:")
                         .font(.largeTitle)
