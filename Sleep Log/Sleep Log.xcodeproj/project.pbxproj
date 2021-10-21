@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CED5D482721E13A004869A4 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CED5D472721E13A004869A4 /* TimeManager.swift */; };
+		3CED5D4A2721E14C004869A4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CED5D492721E14C004869A4 /* Helper.swift */; };
+		3CED5D4C2721E162004869A4 /* Light_Vision_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CED5D4B2721E162004869A4 /* Light_Vision_View.swift */; };
 		C14E7C8327189FD70010C091 /* NapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14E7C8227189FD70010C091 /* NapView.swift */; };
 		C14E7C872718A13E0010C091 /* Nap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14E7C862718A13E0010C091 /* Nap.storyboard */; };
 		C14E7C892718A6490010C091 /* BedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14E7C882718A6490010C091 /* BedTimeView.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CED5D472721E13A004869A4 /* TimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
+		3CED5D492721E14C004869A4 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		3CED5D4B2721E162004869A4 /* Light_Vision_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light_Vision_View.swift; sourceTree = "<group>"; };
 		C14E7C8227189FD70010C091 /* NapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NapView.swift; sourceTree = "<group>"; };
 		C14E7C862718A13E0010C091 /* Nap.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Nap.storyboard; sourceTree = "<group>"; };
 		C14E7C882718A6490010C091 /* BedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedTimeView.swift; sourceTree = "<group>"; };
@@ -68,6 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				CEC183C2270F741300D13787 /* Sleep_LogApp.swift */,
+				3CED5D472721E13A004869A4 /* TimeManager.swift */,
+				3CED5D492721E14C004869A4 /* Helper.swift */,
+				3CED5D4B2721E162004869A4 /* Light_Vision_View.swift */,
 				CEC183D0270F752500D13787 /* HomePageView.swift */,
 				DA1398622716E13E00F3E518 /* LogView.swift */,
 				CEC183C4270F741300D13787 /* ContentView.swift */,
@@ -169,7 +178,10 @@
 				C1CFBD39271CD0B000AAFBF8 /* WakeUpView.swift in Sources */,
 				CEC183D1270F752500D13787 /* HomePageView.swift in Sources */,
 				C14E7C8327189FD70010C091 /* NapView.swift in Sources */,
+				3CED5D4A2721E14C004869A4 /* Helper.swift in Sources */,
 				DA1398632716E13E00F3E518 /* LogView.swift in Sources */,
+				3CED5D4C2721E162004869A4 /* Light_Vision_View.swift in Sources */,
+				3CED5D482721E13A004869A4 /* TimeManager.swift in Sources */,
 				CEC183C3270F741300D13787 /* Sleep_LogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

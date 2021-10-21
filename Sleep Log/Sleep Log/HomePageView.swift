@@ -77,11 +77,14 @@ struct HomePageView: View {
                             Button(action: {}, label: {
                                 Image("button").resizable().frame(width:350, height:75)
                             })
+                            NavigationLink(destination: Light_Vision_View()) {
                             Text("Start Light Vision Timer")
                                 .font(.title2)
                                 .fontWeight(.black)
                                 .foregroundColor(Color.white)
                                 .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                            }
+                           
                         }
                         
                         Text(" ")
