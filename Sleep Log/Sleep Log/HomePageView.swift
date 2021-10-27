@@ -102,7 +102,9 @@ struct HomePageView: View {
                             })
                             Text("  ")
                             Button(action: {}, label: {
+                                NavigationLink(destination: HelpView()){
                                 Image("question").resizable().frame(width: 100, height:100)
+                                }
                             })
                         }
                         
