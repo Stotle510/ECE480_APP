@@ -9,9 +9,49 @@ import SwiftUI
 
 struct HelpView: View {
     var body: some View {
-        HelpController()
+        NavigationView {
+            VStack(spacing: 15){
+                Spacer()
+                Spacer()
+                Link(destination: URL(string:"https://youtu.be/EznyKH-qWZc")!) {
+                    Text("INTRODUCTION VIDEO")
+                        .padding(.vertical, 20)
+                        .frame(width: 350.0, height: 60.0)
+                        .background(Color.purple)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                        .font(.title)
+                }
+                Spacer()
+                Link(destination: URL(string:"https://youtu.be/EznyKH-qWZc")!) {
+                    Text("HOW TO VIDEO")
+                        .padding(.vertical, 20)
+                        .frame(width: 260.0, height: 60.0)
+                        .background(Color.purple)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                        .font(.title)
+                }
+                Spacer()
+                NavigationLink(destination: HomePageView()) {
+                    Text("BACK TO HOME")
+                        .bold()
+                        .padding(.vertical, 20)
+                        .frame(width: 250.0, height: 60.0)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                        .font(.title)
+                }
+                Spacer()
+                Spacer()
+            }
+           
+            .edgesIgnoringSafeArea(.all)
+        }
     }
 }
+    
 
 struct HelpView_Previews: PreviewProvider {
     static var previews: some View {
@@ -19,14 +59,4 @@ struct HelpView_Previews: PreviewProvider {
     }
 }
 
-struct HelpController : UIViewControllerRepresentable{
-    func makeUIViewController(context: UIViewControllerRepresentableContext<HelpController>) -> UIViewController {
-        
-        let storyboard = UIStoryboard(name: "Help", bundle: Bundle.main)
-        let controller = storyboard.instantiateViewController(withIdentifier: "Help")
-        return controller
-    }
-    func updateUIViewController(_ uiViewController: UIViewController, context: UIViewControllerRepresentableContext<HelpController>) {
 
-    }
-}
