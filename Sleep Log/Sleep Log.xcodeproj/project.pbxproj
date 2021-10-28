@@ -15,6 +15,7 @@
 		C14E7C8B2718A6730010C091 /* BedTime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14E7C8A2718A6730010C091 /* BedTime.storyboard */; };
 		C1559C4C272A0F3B00233A5F /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1559C4B272A0F3B00233A5F /* HelpView.swift */; };
 		C1559C4E272A108100233A5F /* BedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1559C4D272A108100233A5F /* BedTimeView.swift */; };
+		C1559C90272B413000233A5F /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1559C8F272B413000233A5F /* ThankYouView.swift */; };
 		C1CFBD39271CD0B000AAFBF8 /* WakeUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CFBD38271CD0B000AAFBF8 /* WakeUpView.swift */; };
 		C1CFBD3B271CD12800AAFBF8 /* WakeUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1CFBD3A271CD12800AAFBF8 /* WakeUp.storyboard */; };
 		CEC183C3270F741300D13787 /* Sleep_LogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC183C2270F741300D13787 /* Sleep_LogApp.swift */; };
@@ -34,6 +35,7 @@
 		C14E7C8A2718A6730010C091 /* BedTime.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BedTime.storyboard; sourceTree = "<group>"; };
 		C1559C4B272A0F3B00233A5F /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		C1559C4D272A108100233A5F /* BedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedTimeView.swift; sourceTree = "<group>"; };
+		C1559C8F272B413000233A5F /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
 		C1CFBD38271CD0B000AAFBF8 /* WakeUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpView.swift; sourceTree = "<group>"; };
 		C1CFBD3A271CD12800AAFBF8 /* WakeUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WakeUp.storyboard; sourceTree = "<group>"; };
 		CEC183BF270F741300D13787 /* Sleep Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleep Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +91,7 @@
 				C1559C4D272A108100233A5F /* BedTimeView.swift */,
 				C14E7C8A2718A6730010C091 /* BedTime.storyboard */,
 				C1559C4B272A0F3B00233A5F /* HelpView.swift */,
+				C1559C8F272B413000233A5F /* ThankYouView.swift */,
 				CEC183C6270F741700D13787 /* Assets.xcassets */,
 				CEC183C8270F741700D13787 /* Preview Content */,
 			);
@@ -187,6 +190,7 @@
 				C1559C4E272A108100233A5F /* BedTimeView.swift in Sources */,
 				3CED5D482721E13A004869A4 /* TimeManager.swift in Sources */,
 				CEC183C3270F741300D13787 /* Sleep_LogApp.swift in Sources */,
+				C1559C90272B413000233A5F /* ThankYouView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
