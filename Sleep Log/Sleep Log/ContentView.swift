@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State var email = ""
     @State var password = ""
+    @State var showingAlert = false
     var body: some View {
         NavigationView {
             VStack(spacing: 15){
@@ -36,16 +37,33 @@ struct ContentView: View {
                     .background(Color.white)
                     .cornerRadius(8)
                     .padding(.horizontal, 20)
-                NavigationLink(destination: HomePageView()          .navigationBarBackButtonHidden(true)
-                    .navigationBarBackButtonHidden(true)
-                    .navigationBarHidden(true)) {
-                    Text("Continue To Home Screen")
-                        .padding(.vertical, 20)
-                        .frame(width: 370.0, height: 60.0)
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(8)
-                        .font(.title)
+                if email == "Arie" && password == "2000" {
+                    NavigationLink(destination: HomePageView()         .navigationBarBackButtonHidden(true)
+                        .navigationBarBackButtonHidden(true)
+                        .navigationBarHidden(true)) {
+                        Text("Continue To Home Screen")
+                            .padding(.vertical, 20)
+                            .frame(width: 370.0, height: 60.0)
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(8)
+                            .font(.title)
+                    }
+                }
+                else {
+                    if #available(iOS 15.0, *) {
+                        Button("Continue To Home Screen") {
+                            showingAlert = true
+                        }.padding(.vertical, 20)
+                            .frame(width: 370.0, height: 60.0)
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(8)
+                            .font(.title)
+                        .alert("Log-In failed, please try again", isPresented: $showingAlert) {
+                            Button("OK", role: .cancel) { }
+                        }
+                    }
                 }
                 Spacer()
                 Spacer()
