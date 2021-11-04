@@ -115,17 +115,18 @@ struct HomePageView: View {
                             VStack{
                                 //NotificationListView
                                 Button(action: {}, label: {
+                                    NavigationLink(destination: NotificationListView()) {
                                     
-                                    Image("button").resizable().frame(width:350, height:75)
+                                    
+                                    Text("Set")
+                                        .font(.title3)
+                                        .fontWeight(.bold)
+                                    Text("Reminders")
+                                        .font(.title3)
+                                        .fontWeight(.bold)
+                                    }
                                 })
-                                NavigationLink(destination: NotificationListView()) {
-                                Text("Set")
-                                    .font(.title3)
-                                    .fontWeight(.bold)
-                                Text("Reminders")
-                                    .font(.title3)
-                                    .fontWeight(.bold)
-                                }
+                               
                                 
                             }
                             
