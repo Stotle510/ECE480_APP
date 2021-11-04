@@ -1,8 +1,8 @@
 //
 //  InfoOverlayView.swift
-//  LocalNotificationsYouTube
+//  Sleep Log
 //
-//  Created by James Haville on 13/05/2021.
+//  Created by Hussain Atwain on 11/4/21.
 //
 
 import SwiftUI

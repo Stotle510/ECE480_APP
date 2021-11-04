@@ -1,8 +1,8 @@
 //
 //  CreateNotificationView.swift
-//  LocalNotificationsYouTube
+//  Sleep Log
 //
-//  Created by James Haville on 06/05/2021.
+//  Created by Hussain Atwain on 11/4/21.
 //
 
 import SwiftUI
@@ -72,3 +72,4 @@ struct CreateNotificationView_Previews: PreviewProvider {
         )
     }
 }
+

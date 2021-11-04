@@ -99,7 +99,9 @@ struct HomePageView: View {
                         
                         HStack{
                             Button(action: {}, label: {
+                                NavigationLink(destination: NotificationListView()){
                                 Image("bell").resizable().frame(width: 100, height:100)
+                                }
                             })
                             Text("  ")
                             Button(action: {}, label: {
@@ -120,21 +122,12 @@ struct HomePageView: View {
                         
                         HStack{
                             VStack{
-                                //NotificationListView
-                                Button(action: {}, label: {
-                                    NavigationLink(destination: NotificationListView()) {
-                                    
-                                    
                                     Text("Set")
                                         .font(.title3)
                                         .fontWeight(.bold)
                                     Text("Reminders")
                                         .font(.title3)
                                         .fontWeight(.bold)
-                                    }
-                                })
-                               
-                                
                             }
                             
                             VStack{

@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C2F8D1A273452F400DB362E /* CreateNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F8D14273452F300DB362E /* CreateNotificationView.swift */; };
-		3C2F8D1B273452F400DB362E /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F8D15273452F300DB362E /* NotificationListView.swift */; };
-		3C2F8D1D273452F400DB362E /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F8D17273452F300DB362E /* NotificationManager.swift */; };
-		3C2F8D1E273452F400DB362E /* LocalNotificationsYouTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F8D18273452F300DB362E /* LocalNotificationsYouTubeApp.swift */; };
-		3C2F8D1F273452F400DB362E /* InfoOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F8D19273452F300DB362E /* InfoOverlayView.swift */; };
 		3CED5D482721E13A004869A4 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CED5D472721E13A004869A4 /* TimeManager.swift */; };
 		3CED5D4A2721E14C004869A4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CED5D492721E14C004869A4 /* Helper.swift */; };
 		3CED5D4C2721E162004869A4 /* Light_Vision_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CED5D4B2721E162004869A4 /* Light_Vision_View.swift */; };
@@ -20,6 +15,11 @@
 		C1559C4E272A108100233A5F /* BedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1559C4D272A108100233A5F /* BedTimeView.swift */; };
 		C1559C90272B413000233A5F /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1559C8F272B413000233A5F /* ThankYouView.swift */; };
 		C1CFBD39271CD0B000AAFBF8 /* WakeUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CFBD38271CD0B000AAFBF8 /* WakeUpView.swift */; };
+		C1F46E202734657F0078E9F6 /* CreateNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F46E1F2734657F0078E9F6 /* CreateNotificationView.swift */; };
+		C1F46E22273465D20078E9F6 /* InfoOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F46E21273465D20078E9F6 /* InfoOverlayView.swift */; };
+		C1F46E26273466760078E9F6 /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F46E25273466760078E9F6 /* NotificationListView.swift */; };
+		C1F46E2A273466C10078E9F6 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F46E29273466C10078E9F6 /* NotificationManager.swift */; };
+		C1F46E2C273469900078E9F6 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F46E2B273469900078E9F6 /* Notifications.swift */; };
 		CEC183C3270F741300D13787 /* Sleep_LogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC183C2270F741300D13787 /* Sleep_LogApp.swift */; };
 		CEC183C5270F741300D13787 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC183C4270F741300D13787 /* ContentView.swift */; };
 		CEC183C7270F741700D13787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC183C6270F741700D13787 /* Assets.xcassets */; };
@@ -29,11 +29,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3C2F8D14273452F300DB362E /* CreateNotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateNotificationView.swift; path = "../../../../SwiftUI Reminder/LocalNotificationsSampleApp-master/LocalNotificationsYouTube/CreateNotificationView.swift"; sourceTree = "<group>"; };
-		3C2F8D15273452F300DB362E /* NotificationListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationListView.swift; path = "../../../../SwiftUI Reminder/LocalNotificationsSampleApp-master/LocalNotificationsYouTube/NotificationListView.swift"; sourceTree = "<group>"; };
-		3C2F8D17273452F300DB362E /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationManager.swift; path = "../../../../SwiftUI Reminder/LocalNotificationsSampleApp-master/LocalNotificationsYouTube/NotificationManager.swift"; sourceTree = "<group>"; };
-		3C2F8D18273452F300DB362E /* LocalNotificationsYouTubeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalNotificationsYouTubeApp.swift; path = "../../../../SwiftUI Reminder/LocalNotificationsSampleApp-master/LocalNotificationsYouTube/LocalNotificationsYouTubeApp.swift"; sourceTree = "<group>"; };
-		3C2F8D19273452F300DB362E /* InfoOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoOverlayView.swift; path = "../../../../SwiftUI Reminder/LocalNotificationsSampleApp-master/LocalNotificationsYouTube/InfoOverlayView.swift"; sourceTree = "<group>"; };
 		3CED5D472721E13A004869A4 /* TimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
 		3CED5D492721E14C004869A4 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		3CED5D4B2721E162004869A4 /* Light_Vision_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light_Vision_View.swift; sourceTree = "<group>"; };
@@ -42,6 +37,11 @@
 		C1559C4D272A108100233A5F /* BedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedTimeView.swift; sourceTree = "<group>"; };
 		C1559C8F272B413000233A5F /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
 		C1CFBD38271CD0B000AAFBF8 /* WakeUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpView.swift; sourceTree = "<group>"; };
+		C1F46E1F2734657F0078E9F6 /* CreateNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNotificationView.swift; sourceTree = "<group>"; };
+		C1F46E21273465D20078E9F6 /* InfoOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoOverlayView.swift; sourceTree = "<group>"; };
+		C1F46E25273466760078E9F6 /* NotificationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationListView.swift; sourceTree = "<group>"; };
+		C1F46E29273466C10078E9F6 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		C1F46E2B273469900078E9F6 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		CEC183BF270F741300D13787 /* Sleep Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleep Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC183C2270F741300D13787 /* Sleep_LogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_LogApp.swift; sourceTree = "<group>"; };
 		CEC183C4270F741300D13787 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,11 +82,11 @@
 			isa = PBXGroup;
 			children = (
 				CEC183C2270F741300D13787 /* Sleep_LogApp.swift */,
-				3C2F8D14273452F300DB362E /* CreateNotificationView.swift */,
-				3C2F8D19273452F300DB362E /* InfoOverlayView.swift */,
-				3C2F8D18273452F300DB362E /* LocalNotificationsYouTubeApp.swift */,
-				3C2F8D15273452F300DB362E /* NotificationListView.swift */,
-				3C2F8D17273452F300DB362E /* NotificationManager.swift */,
+				C1F46E1F2734657F0078E9F6 /* CreateNotificationView.swift */,
+				C1F46E21273465D20078E9F6 /* InfoOverlayView.swift */,
+				C1F46E2B273469900078E9F6 /* Notifications.swift */,
+				C1F46E25273466760078E9F6 /* NotificationListView.swift */,
+				C1F46E29273466C10078E9F6 /* NotificationManager.swift */,
 				3CED5D472721E13A004869A4 /* TimeManager.swift */,
 				3CED5D492721E14C004869A4 /* Helper.swift */,
 				3CED5D4B2721E162004869A4 /* Light_Vision_View.swift */,
@@ -182,23 +182,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C2F8D1E273452F400DB362E /* LocalNotificationsYouTubeApp.swift in Sources */,
-				3C2F8D1A273452F400DB362E /* CreateNotificationView.swift in Sources */,
+				C1F46E202734657F0078E9F6 /* CreateNotificationView.swift in Sources */,
 				CEC183C5270F741300D13787 /* ContentView.swift in Sources */,
 				C1CFBD39271CD0B000AAFBF8 /* WakeUpView.swift in Sources */,
 				CEC183D1270F752500D13787 /* HomePageView.swift in Sources */,
 				C14E7C8327189FD70010C091 /* NapView.swift in Sources */,
+				C1F46E26273466760078E9F6 /* NotificationListView.swift in Sources */,
 				C1559C4C272A0F3B00233A5F /* HelpView.swift in Sources */,
 				3CED5D4A2721E14C004869A4 /* Helper.swift in Sources */,
-				3C2F8D1B273452F400DB362E /* NotificationListView.swift in Sources */,
-				3C2F8D1F273452F400DB362E /* InfoOverlayView.swift in Sources */,
 				DA1398632716E13E00F3E518 /* LogView.swift in Sources */,
 				3CED5D4C2721E162004869A4 /* Light_Vision_View.swift in Sources */,
 				C1559C4E272A108100233A5F /* BedTimeView.swift in Sources */,
+				C1F46E2A273466C10078E9F6 /* NotificationManager.swift in Sources */,
 				3CED5D482721E13A004869A4 /* TimeManager.swift in Sources */,
-				3C2F8D1D273452F400DB362E /* NotificationManager.swift in Sources */,
+				C1F46E2C273469900078E9F6 /* Notifications.swift in Sources */,
 				CEC183C3270F741300D13787 /* Sleep_LogApp.swift in Sources */,
 				C1559C90272B413000233A5F /* ThankYouView.swift in Sources */,
+				C1F46E22273465D20078E9F6 /* InfoOverlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
