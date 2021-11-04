@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2F8D1A273452F400DB362E /* CreateNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F8D14273452F300DB362E /* CreateNotificationView.swift */; };
+		3C2F8D1B273452F400DB362E /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F8D15273452F300DB362E /* NotificationListView.swift */; };
+		3C2F8D1D273452F400DB362E /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F8D17273452F300DB362E /* NotificationManager.swift */; };
+		3C2F8D1E273452F400DB362E /* LocalNotificationsYouTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F8D18273452F300DB362E /* LocalNotificationsYouTubeApp.swift */; };
+		3C2F8D1F273452F400DB362E /* InfoOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F8D19273452F300DB362E /* InfoOverlayView.swift */; };
 		3CED5D482721E13A004869A4 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CED5D472721E13A004869A4 /* TimeManager.swift */; };
 		3CED5D4A2721E14C004869A4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CED5D492721E14C004869A4 /* Helper.swift */; };
 		3CED5D4C2721E162004869A4 /* Light_Vision_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CED5D4B2721E162004869A4 /* Light_Vision_View.swift */; };
@@ -24,6 +29,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C2F8D14273452F300DB362E /* CreateNotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateNotificationView.swift; path = "../../../../SwiftUI Reminder/LocalNotificationsSampleApp-master/LocalNotificationsYouTube/CreateNotificationView.swift"; sourceTree = "<group>"; };
+		3C2F8D15273452F300DB362E /* NotificationListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationListView.swift; path = "../../../../SwiftUI Reminder/LocalNotificationsSampleApp-master/LocalNotificationsYouTube/NotificationListView.swift"; sourceTree = "<group>"; };
+		3C2F8D17273452F300DB362E /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationManager.swift; path = "../../../../SwiftUI Reminder/LocalNotificationsSampleApp-master/LocalNotificationsYouTube/NotificationManager.swift"; sourceTree = "<group>"; };
+		3C2F8D18273452F300DB362E /* LocalNotificationsYouTubeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalNotificationsYouTubeApp.swift; path = "../../../../SwiftUI Reminder/LocalNotificationsSampleApp-master/LocalNotificationsYouTube/LocalNotificationsYouTubeApp.swift"; sourceTree = "<group>"; };
+		3C2F8D19273452F300DB362E /* InfoOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoOverlayView.swift; path = "../../../../SwiftUI Reminder/LocalNotificationsSampleApp-master/LocalNotificationsYouTube/InfoOverlayView.swift"; sourceTree = "<group>"; };
 		3CED5D472721E13A004869A4 /* TimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
 		3CED5D492721E14C004869A4 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		3CED5D4B2721E162004869A4 /* Light_Vision_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light_Vision_View.swift; sourceTree = "<group>"; };
@@ -72,6 +82,11 @@
 			isa = PBXGroup;
 			children = (
 				CEC183C2270F741300D13787 /* Sleep_LogApp.swift */,
+				3C2F8D14273452F300DB362E /* CreateNotificationView.swift */,
+				3C2F8D19273452F300DB362E /* InfoOverlayView.swift */,
+				3C2F8D18273452F300DB362E /* LocalNotificationsYouTubeApp.swift */,
+				3C2F8D15273452F300DB362E /* NotificationListView.swift */,
+				3C2F8D17273452F300DB362E /* NotificationManager.swift */,
 				3CED5D472721E13A004869A4 /* TimeManager.swift */,
 				3CED5D492721E14C004869A4 /* Helper.swift */,
 				3CED5D4B2721E162004869A4 /* Light_Vision_View.swift */,
@@ -167,16 +182,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C2F8D1E273452F400DB362E /* LocalNotificationsYouTubeApp.swift in Sources */,
+				3C2F8D1A273452F400DB362E /* CreateNotificationView.swift in Sources */,
 				CEC183C5270F741300D13787 /* ContentView.swift in Sources */,
 				C1CFBD39271CD0B000AAFBF8 /* WakeUpView.swift in Sources */,
 				CEC183D1270F752500D13787 /* HomePageView.swift in Sources */,
 				C14E7C8327189FD70010C091 /* NapView.swift in Sources */,
 				C1559C4C272A0F3B00233A5F /* HelpView.swift in Sources */,
 				3CED5D4A2721E14C004869A4 /* Helper.swift in Sources */,
+				3C2F8D1B273452F400DB362E /* NotificationListView.swift in Sources */,
+				3C2F8D1F273452F400DB362E /* InfoOverlayView.swift in Sources */,
 				DA1398632716E13E00F3E518 /* LogView.swift in Sources */,
 				3CED5D4C2721E162004869A4 /* Light_Vision_View.swift in Sources */,
 				C1559C4E272A108100233A5F /* BedTimeView.swift in Sources */,
 				3CED5D482721E13A004869A4 /* TimeManager.swift in Sources */,
+				3C2F8D1D273452F400DB362E /* NotificationManager.swift in Sources */,
 				CEC183C3270F741300D13787 /* Sleep_LogApp.swift in Sources */,
 				C1559C90272B413000233A5F /* ThankYouView.swift in Sources */,
 			);
@@ -310,6 +330,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sleep Log/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -339,6 +360,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sleep Log/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
