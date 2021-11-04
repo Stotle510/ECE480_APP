@@ -25,17 +25,24 @@ struct HomePageView: View {
                     
                     VStack{
                         HStack{
-                            Button(action: {}, label: {NavigationLink(destination: WakeUpView()){
+                            Button(action: {}, label: {NavigationLink(destination: WakeUpView()
+                                .navigationBarBackButtonHidden(true)
+                                .navigationBarBackButtonHidden(true)
+                                .navigationBarHidden(true)){
                                 Image("sun").resizable().frame(width: 100, height:100)
                                 }
                             })
                             Text("  ")
-                            Button(action: {}, label: {NavigationLink(destination: NapView()){
+                            Button(action: {}, label: {NavigationLink(destination: NapView().navigationBarBackButtonHidden(true)
+                                .navigationBarBackButtonHidden(true)
+                                .navigationBarHidden(true)){
                                 Image("zzz").resizable().frame(width: 100, height:100)
                             }
                             })
                             Text("  ")
-                            Button(action: {}, label: {NavigationLink(destination: BedTimeView()){
+                            Button(action: {}, label: {NavigationLink(destination: BedTimeView().navigationBarBackButtonHidden(true)
+                                .navigationBarBackButtonHidden(true)
+                                .navigationBarHidden(true)){
                                 Image("moon").resizable().frame(width: 100, height:100)
                             }
                             })
