@@ -11,13 +11,10 @@
 		3CED5D4A2721E14C004869A4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CED5D492721E14C004869A4 /* Helper.swift */; };
 		3CED5D4C2721E162004869A4 /* Light_Vision_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CED5D4B2721E162004869A4 /* Light_Vision_View.swift */; };
 		C14E7C8327189FD70010C091 /* NapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14E7C8227189FD70010C091 /* NapView.swift */; };
-		C14E7C872718A13E0010C091 /* Nap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14E7C862718A13E0010C091 /* Nap.storyboard */; };
-		C14E7C8B2718A6730010C091 /* BedTime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14E7C8A2718A6730010C091 /* BedTime.storyboard */; };
 		C1559C4C272A0F3B00233A5F /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1559C4B272A0F3B00233A5F /* HelpView.swift */; };
 		C1559C4E272A108100233A5F /* BedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1559C4D272A108100233A5F /* BedTimeView.swift */; };
 		C1559C90272B413000233A5F /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1559C8F272B413000233A5F /* ThankYouView.swift */; };
 		C1CFBD39271CD0B000AAFBF8 /* WakeUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CFBD38271CD0B000AAFBF8 /* WakeUpView.swift */; };
-		C1CFBD3B271CD12800AAFBF8 /* WakeUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1CFBD3A271CD12800AAFBF8 /* WakeUp.storyboard */; };
 		CEC183C3270F741300D13787 /* Sleep_LogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC183C2270F741300D13787 /* Sleep_LogApp.swift */; };
 		CEC183C5270F741300D13787 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC183C4270F741300D13787 /* ContentView.swift */; };
 		CEC183C7270F741700D13787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC183C6270F741700D13787 /* Assets.xcassets */; };
@@ -31,13 +28,10 @@
 		3CED5D492721E14C004869A4 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		3CED5D4B2721E162004869A4 /* Light_Vision_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light_Vision_View.swift; sourceTree = "<group>"; };
 		C14E7C8227189FD70010C091 /* NapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NapView.swift; sourceTree = "<group>"; };
-		C14E7C862718A13E0010C091 /* Nap.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Nap.storyboard; sourceTree = "<group>"; };
-		C14E7C8A2718A6730010C091 /* BedTime.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BedTime.storyboard; sourceTree = "<group>"; };
 		C1559C4B272A0F3B00233A5F /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		C1559C4D272A108100233A5F /* BedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedTimeView.swift; sourceTree = "<group>"; };
 		C1559C8F272B413000233A5F /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
 		C1CFBD38271CD0B000AAFBF8 /* WakeUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpView.swift; sourceTree = "<group>"; };
-		C1CFBD3A271CD12800AAFBF8 /* WakeUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WakeUp.storyboard; sourceTree = "<group>"; };
 		CEC183BF270F741300D13787 /* Sleep Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleep Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC183C2270F741300D13787 /* Sleep_LogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_LogApp.swift; sourceTree = "<group>"; };
 		CEC183C4270F741300D13787 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,11 +79,8 @@
 				DA1398622716E13E00F3E518 /* LogView.swift */,
 				CEC183C4270F741300D13787 /* ContentView.swift */,
 				C1CFBD38271CD0B000AAFBF8 /* WakeUpView.swift */,
-				C1CFBD3A271CD12800AAFBF8 /* WakeUp.storyboard */,
 				C14E7C8227189FD70010C091 /* NapView.swift */,
-				C14E7C862718A13E0010C091 /* Nap.storyboard */,
 				C1559C4D272A108100233A5F /* BedTimeView.swift */,
-				C14E7C8A2718A6730010C091 /* BedTime.storyboard */,
 				C1559C4B272A0F3B00233A5F /* HelpView.swift */,
 				C1559C8F272B413000233A5F /* ThankYouView.swift */,
 				CEC183C6270F741700D13787 /* Assets.xcassets */,
@@ -164,11 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C14E7C872718A13E0010C091 /* Nap.storyboard in Resources */,
 				CEC183CA270F741700D13787 /* Preview Assets.xcassets in Resources */,
 				CEC183C7270F741700D13787 /* Assets.xcassets in Resources */,
-				C14E7C8B2718A6730010C091 /* BedTime.storyboard in Resources */,
-				C1CFBD3B271CD12800AAFBF8 /* WakeUp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
