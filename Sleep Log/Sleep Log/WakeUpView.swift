@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct WakeUpView: View {
+    @State var emptySting: String = ""
     @State var wakeUpTime: String = ""
     @State private var isExpanded = false
     @State private var selectedAns1 = "Select"
@@ -17,6 +18,7 @@ struct WakeUpView: View {
         NavigationView {
             VStack(spacing: 70){
                 Spacer()
+                TextField("", text: $emptySting)
                 HStack{
                     Text("Wake-Up Time: ")
                         .font(.system(size: 22))

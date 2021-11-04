@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct BedTimeView: View {
+    @State var emptySting: String = ""
     @State var bedTime: String = ""
     @State var fatigueLevel: String = ""
     @State var sleeepinessLevel: String = ""
@@ -16,6 +17,7 @@ struct BedTimeView: View {
         NavigationView {
             VStack(spacing: 60){
                 Spacer()
+                TextField("", text: $emptySting)
                 HStack{
                     Text("Bed Time:")
                         .font(.system(size: 22))

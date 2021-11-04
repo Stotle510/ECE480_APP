@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct NapView: View {
+    @State var emptySting: String = ""
     @State private var isExpanded = false
     @State private var selectedAns = "Select"
     @State var firstNapS: String = ""
@@ -20,6 +21,7 @@ struct NapView: View {
         NavigationView {
             VStack(spacing: 70){
                 Spacer()
+                TextField("", text: $emptySting)
                 HStack{
                     Text("Did you nap during the day? ")
                         .padding(.horizontal, 20)
