@@ -7,35 +7,48 @@
 
 import SwiftUI
 
-
-struct Entry: Identifiable {
-    let id = UUID()
-    let date: String
-}
-
-// A view that shows the data for one Restaurant.
-struct EntryRow: View {
-    var LogEntry: Entry
-
-    var body: some View {
-        Text("Date: \(LogEntry.date)")
-    }
-}
-
 struct LogView: View {
-    
-    let LogEntries = [
-        Entry(date: "9/12/21"),
-        Entry(date: "9/22/21"),
-        Entry(date: "9/23/21")
-    ]
-
+    @State var nameChange: String = ""
     var body: some View {
-        List(LogEntries) { LogEntry in
-            EntryRow(LogEntry: LogEntry)
+        NavigationView {
+            VStack{
+                Image("profile").resizable().frame(width: 150, height:150)
+                HStack(){
+                    Text("ID: ")
+                        .font(.system(size: 40, weight: .bold))
+                        .foregroundColor(.black)
+                    Text("Patient")
+                        .font(.system(size: 40, weight: .bold))
+                        .foregroundColor(.black)
+                }
+                HStack(){
+                    Text("Password: ")
+                        .font(.system(size: 40, weight: .bold))
+                        .foregroundColor(.black)
+                    Text("****")
+                        .font(.system(size: 40, weight: .bold))
+                        .foregroundColor(.black)
+                }
+                Spacer()
+                Spacer()
+                Spacer()
+                Text("Change username?")
+                    .font(.system(size: 15, weight: .bold))
+                    .foregroundColor(.black)
+                HStack(){
+                    Text("               ")
+                    TextField("Enter new unsername here", text: $nameChange)
+                        .padding(.all, 10)
+                        .background(Color.white)
+                        .cornerRadius(8)
+                        .padding(.horizontal, 20)
+                }
+                Spacer()
+            }
         }
     }
 }
+
 struct LogView_Previews: PreviewProvider {
     static var previews: some View {
         LogView()

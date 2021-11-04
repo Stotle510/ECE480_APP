@@ -37,7 +37,7 @@ struct ContentView: View {
                     .background(Color.white)
                     .cornerRadius(8)
                     .padding(.horizontal, 20)
-                if email == "Arie" && password == "2000" {
+                if email == "Patient" && password == "2000" {
                     NavigationLink(destination: HomePageView()         .navigationBarBackButtonHidden(true)
                         .navigationBarBackButtonHidden(true)
                         .navigationBarHidden(true)) {
