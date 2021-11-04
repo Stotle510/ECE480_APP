@@ -33,7 +33,10 @@ struct HelpView: View {
                         .font(.title)
                 }
                 Spacer()
-                NavigationLink(destination: HomePageView()) {
+                NavigationLink(destination: HomePageView()
+                    .navigationBarBackButtonHidden(true)
+                    .navigationBarBackButtonHidden(true)
+                    .navigationBarHidden(true)) {
                     Text("BACK TO HOME")
                         .bold()
                         .padding(.vertical, 20)
