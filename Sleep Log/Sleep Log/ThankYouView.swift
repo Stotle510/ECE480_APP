@@ -14,25 +14,16 @@ struct ThankYouView: View {
         NavigationView {
             VStack(spacing: 15){
                 Spacer()
-                Spacer()
+                Image("check").resizable().frame(width: 100, height:100)
                 Text("Thank You")
                     .font(.system(size: 65, weight: .bold))
                     .foregroundColor(.black)
                 Text("Your response has been recored")
                     .font(.system(size: 25, weight: .bold))
                     .foregroundColor(.black)
-                NavigationLink(destination: HomePageView()          .navigationBarBackButtonHidden(true)
-                    .navigationBarBackButtonHidden(true)
-                    .navigationBarHidden(true)) {
-                    Text("RETURN HOME")
-                        .bold()
-                        .padding(.vertical, 20)
-                        .frame(width: 250.0, height: 60.0)
-                        .background(Color.green)
-                        .foregroundColor(.white)
-                        .cornerRadius(8)
-                        .font(.title)
-                }
+                Text("Please click <back to return home")
+                    .font(.system(size: 15, weight: .bold))
+                    .foregroundColor(.green)
                 Spacer()
                 Spacer()
             }

@@ -25,24 +25,17 @@ struct HomePageView: View {
                     
                     VStack{
                         HStack{
-                            Button(action: {}, label: {NavigationLink(destination: WakeUpView()
-                                .navigationBarBackButtonHidden(true)
-                                .navigationBarBackButtonHidden(true)
-                                .navigationBarHidden(true)){
+                            Button(action: {}, label: {NavigationLink(destination: WakeUpView()){
                                 Image("sun").resizable().frame(width: 100, height:100)
                                 }
                             })
                             Text("  ")
-                            Button(action: {}, label: {NavigationLink(destination: NapView().navigationBarBackButtonHidden(true)
-                                .navigationBarBackButtonHidden(true)
-                                .navigationBarHidden(true)){
+                            Button(action: {}, label: {NavigationLink(destination: NapView()){
                                 Image("zzz").resizable().frame(width: 100, height:100)
                             }
                             })
                             Text("  ")
-                            Button(action: {}, label: {NavigationLink(destination: BedTimeView().navigationBarBackButtonHidden(true)
-                                .navigationBarBackButtonHidden(true)
-                                .navigationBarHidden(true)){
+                            Button(action: {}, label: {NavigationLink(destination: BedTimeView()){
                                 Image("moon").resizable().frame(width: 100, height:100)
                             }
                             })
@@ -111,10 +104,7 @@ struct HomePageView: View {
                             })
                             Text("  ")
                             Button(action: {}, label: {
-                                NavigationLink(destination: HelpView()
-                                .navigationBarBackButtonHidden(true)
-                                .navigationBarBackButtonHidden(true)
-                                .navigationBarHidden(true)){
+                                NavigationLink(destination: HelpView()){
                                 Image("question").resizable().frame(width: 100, height:100)
                                 }
                             })

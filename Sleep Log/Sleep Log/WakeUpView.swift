@@ -66,19 +66,6 @@ struct WakeUpView: View {
                         .cornerRadius(8)
                         .font(.title)
                 }
-                NavigationLink(destination: HomePageView()
-                    .navigationBarBackButtonHidden(true)
-                    .navigationBarBackButtonHidden(true)
-                    .navigationBarHidden(true)) {
-                    Text("BACK TO HOME")
-                        .bold()
-                        .padding(.vertical, 20)
-                        .frame(width: 250.0, height: 60.0)
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(8)
-                        .font(.title)
-                }
                 Spacer()
                 Spacer()
             }
