@@ -100,7 +100,7 @@ struct ExpandView : View {
                     selectAns = "A little bit"
                     self.expand.toggle()
                 }){
-                    Text("A littlge bit")
+                    Text("A little bit")
                         .foregroundColor(.blue)
                 }.foregroundColor(.black)
                 Button(action:{
