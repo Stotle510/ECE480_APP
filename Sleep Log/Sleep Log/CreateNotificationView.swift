@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CreateNotificationView: View {
     @ObservedObject var notificationManager: NotificationManager
-    @State private var title = ""
+    @State private var title = "Light Vision Reminder"
     @State private var date = Date()
     @Binding var isPresented: Bool
     var body: some View {
