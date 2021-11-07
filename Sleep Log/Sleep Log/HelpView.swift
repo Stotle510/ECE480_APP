@@ -23,7 +23,7 @@ struct HelpView: View {
                         .font(.title)
                 }
                 Spacer()
-                Link(destination: URL(string:"https://youtu.be/EznyKH-qWZc")!) {
+                Link(destination: URL(string:"https://youtu.be/RA3WqeS7sio")!) {
                     Text("HOW TO VIDEO")
                         .padding(.vertical, 20)
                         .frame(width: 260.0, height: 60.0)
