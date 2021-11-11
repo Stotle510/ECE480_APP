@@ -36,6 +36,29 @@ struct CreateNotificationView: View {
                                 }
                             }
                         }
+                        
+                        
+                    /////////////
+                        
+                        notificationManager.createLocalNotification(title: title + "1", hour: hour, minute: minute+10) { error in
+                            if error == nil {
+                                DispatchQueue.main.async {
+                                    self.isPresented = false
+                                }
+                            }
+                        }
+                        notificationManager.createLocalNotification(title: title + "2", hour: hour, minute: minute+20) { error in
+                            if error == nil {
+                                DispatchQueue.main.async {
+                                    self.isPresented = false
+                                }
+                            }
+                        }
+                        
+                        
+                        
+                        
+                        //////
                     } label: {
                         Text("Create")
                             .fontWeight(.semibold)
