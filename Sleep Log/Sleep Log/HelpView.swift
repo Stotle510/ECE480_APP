@@ -14,9 +14,9 @@ struct HelpView: View {
                 Spacer()
                 Spacer()
                 Link(destination: URL(string:"https://youtu.be/EznyKH-qWZc")!) {
-                    Text("INTRODUCTION VIDEO")
+                    Text("Video: What Are Included in the Light Visor Package")
                         .padding(.vertical, 20)
-                        .frame(width: 350.0, height: 60.0)
+                        .frame(width: 350.0, height: 125.0)
                         .background(Color.purple)
                         .foregroundColor(.white)
                         .cornerRadius(8)
@@ -24,9 +24,9 @@ struct HelpView: View {
                 }
                 Spacer()
                 Link(destination: URL(string:"https://youtu.be/RA3WqeS7sio")!) {
-                    Text("HOW TO VIDEO")
+                    Text("Video: Instructions for Wearing the Light Visor")
                         .padding(.vertical, 20)
-                        .frame(width: 260.0, height: 60.0)
+                        .frame(width: 350.0, height: 125.0)
                         .background(Color.purple)
                         .foregroundColor(.white)
                         .cornerRadius(8)
