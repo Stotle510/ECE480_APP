@@ -39,21 +39,52 @@ struct CreateNotificationView: View {
                         
                         
                     /////////////
+                        @State var minute_1 = minute + 10
+                        if (minute_1 >= 60) {
+                                
+                        notificationManager.createLocalNotification(title: title + "1", hour: hour+1, minute: minute_1-60) { error in
+                            if error == nil {
+                                DispatchQueue.main.async {
+                                    self.isPresented = false
+                                }
+                            }
+                        }
+                        }
+                        else{
+                            notificationManager.createLocalNotification(title: title + "1", hour: hour, minute: minute+10) { error in
+                                if error == nil {
+                                    DispatchQueue.main.async {
+                                        self.isPresented = false
+                                    }
+                                }
+                            }
+                            
+                            
+                        }
                         
-                        notificationManager.createLocalNotification(title: title + "1", hour: hour, minute: minute+10) { error in
+                        @State var minute_2 = minute_1 + 10
+                        if (minute_2 >= 60) {
+                                
+                        notificationManager.createLocalNotification(title: title + "1", hour: hour+1, minute: minute_2-60) { error in
                             if error == nil {
                                 DispatchQueue.main.async {
                                     self.isPresented = false
                                 }
                             }
                         }
-                        notificationManager.createLocalNotification(title: title + "2", hour: hour, minute: minute+20) { error in
-                            if error == nil {
-                                DispatchQueue.main.async {
-                                    self.isPresented = false
+                        }
+                        else{
+                            notificationManager.createLocalNotification(title: title + "1", hour: hour, minute: minute+20) { error in
+                                if error == nil {
+                                    DispatchQueue.main.async {
+                                        self.isPresented = false
+                                    }
                                 }
                             }
+                            
+                            
                         }
+                        
                         
                         
                         

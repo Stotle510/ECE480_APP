@@ -14,7 +14,7 @@ struct Light_Vision_View: View {
     @State var selectedPickerIndex = 0
     
     var body: some View {
-       
+
         
         VStack {
 
