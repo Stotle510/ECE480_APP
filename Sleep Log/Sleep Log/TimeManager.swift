@@ -14,6 +14,11 @@ class TimerManager: ObservableObject {
     @Published var secondsLeft = UserDefaults.standard.integer(forKey: "timerLength")
     
     func start() {
+        //////
+        
+        
+        ///
+        
         timerMode = .running
         timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true, block: { timer in
             if self.secondsLeft == 0 {

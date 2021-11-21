@@ -13,8 +13,9 @@ struct Light_Vision_View: View {
     
     @State var selectedPickerIndex = 0
     
+    
     var body: some View {
-
+        
         
         VStack {
 
@@ -23,6 +24,7 @@ struct Light_Vision_View: View {
                 .foregroundColor(.blue)
 
                 VStack {
+                    
                 
                     Text(secondsToMinutesAndSeconds(seconds: timerManager.secondsLeft))
                         .font(.system(size: 80))
@@ -34,11 +36,19 @@ struct Light_Vision_View: View {
                         .foregroundColor(.orange)
                         .onTapGesture(perform: {
                             if timerManager.timerMode == .initial {
+                                let time = Date()
+                                let timeFormatter = DateFormatter()
+                                timeFormatter.dateFormat = "HH:mm"
+                                let start_vision_time = timeFormatter.string(from: time)
+                                //print(start_vision_time)
                                 timerManager.setTimerLength(minutes: availableMinutes[selectedPickerIndex]*60)
                             }
                             timerManager.timerMode == .running ? timerManager.pause() : timerManager.start()
                         })
                     if timerManager.timerMode == .paused {
+                        ////
+                        
+                        ////
                         Image(systemName: "gobackward")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
