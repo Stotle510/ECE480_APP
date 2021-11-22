@@ -21,14 +21,15 @@ struct LogView: View {
                         .font(.system(size: 40, weight: .bold))
                         .foregroundColor(.black)
                 }
-                HStack(){
-                    Text("Password: ")
-                        .font(.system(size: 40, weight: .bold))
-                        .foregroundColor(.black)
-                    Text("****")
-                        .font(.system(size: 40, weight: .bold))
-                        .foregroundColor(.black)
-                }
+                Button(action: {read_val()}, label: {
+                    Text("Share Patient Data")
+                        .padding(.vertical, 20)
+                        .frame(width: 250.0, height: 75.0)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                        .font(.title)
+                })
                 Spacer()
                 Spacer()
                 Spacer()

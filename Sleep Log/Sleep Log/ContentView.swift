@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var email = ""
-    @State var password = ""
+    @State var username = ""
     @State var showingAlert = false
     var body: some View {
         NavigationView {
@@ -22,33 +21,27 @@ struct ContentView: View {
                 HStack{
                     Image(systemName: "envelope")
                         .foregroundColor(.gray)
-                    TextField("Username", text: $email)
+                    TextField("Username", text: $username)
                 }
                     .padding(.all, 20)
                     .background(Color.white)
                     .cornerRadius(8)
                     .padding(.horizontal, 20)
-                HStack{
-                    Image(systemName: "lock")
-                        .foregroundColor(.gray)
-                    SecureField("Password", text: $password)
-                }
-                    .padding(.all, 20)
-                    .background(Color.white)
-                    .cornerRadius(8)
-                    .padding(.horizontal, 20)
-                if email == "Patient" && password == "2000" {
-                    NavigationLink(destination: HomePageView()         .navigationBarBackButtonHidden(true)
-                        .navigationBarBackButtonHidden(true)
-                        .navigationBarHidden(true)) {
-                        Text("Continue To Home Screen")
-                            .padding(.vertical, 20)
-                            .frame(width: 370.0, height: 60.0)
-                            .background(Color.blue)
-                            .foregroundColor(.white)
-                            .cornerRadius(8)
-                            .font(.title)
-                    }
+                if username != "" {
+                    Button(action: {print("hello")}, label: {
+                        NavigationLink(destination: HomePageView()
+                            .navigationBarBackButtonHidden(true)
+                            .navigationBarBackButtonHidden(true)
+                            .navigationBarHidden(true)) {
+                            Text("Continue To Home Screen")
+                                .padding(.vertical, 20)
+                                .frame(width: 370.0, height: 60.0)
+                                .background(Color.blue)
+                                .foregroundColor(.white)
+                                .cornerRadius(8)
+                                .font(.title)
+                        }
+                    })
                 }
                 else {
                     if #available(iOS 15.0, *) {
@@ -60,7 +53,7 @@ struct ContentView: View {
                             .foregroundColor(.white)
                             .cornerRadius(8)
                             .font(.title)
-                        .alert("Log-In failed, please try again", isPresented: $showingAlert) {
+                        .alert("Log-In failed, please enter username", isPresented: $showingAlert) {
                             Button("OK", role: .cancel) { }
                         }
                     }
