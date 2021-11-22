@@ -8,117 +8,99 @@
 import Foundation
 
 struct DefaultsKeys {
-    static let username = " "
-    static let wakeuptime = " "
-    static let sleepdifficulty = " "
-    static let wakeupnight = " "
-    static let wakeupearly = " "
-    static let tooknap = " "
-    static let onestart = " "
-    static let oneend = " "
-    static let twostart = " "
-    static let twoend = " "
-    static let threestart = " "
-    static let threeend = " "
-    static let bedtime = " "
-    static let fatiguelvl = " "
-    static let sleepinesslvl = " "
+    static var username = "Aristotle"
+    static var wakeuptime = "8AM"
+    static var sleepdifficulty = "Somewhat"
+    static var wakeupnight = "Somewhat"
+    static var wakeupearly = "Somewhat"
+    static var tooknap = "Yes"
+    static var onestart = "10AM"
+    static var oneend = "11AM"
+    static var twostart = "1PM"
+    static var twoend = "2PM"
+    static var threestart = "5PM"
+    static var threeend = "6PM"
+    static var bedtime = "9PM"
+    static var fatiguelvl = "5"
+    static var sleepinesslvl = "5"
 }
 
 func write_val(name: String, value: String){
-    let defaults = UserDefaults.standard
     if name == "username" {
-        defaults.set(value, forKey: DefaultsKeys.username)
+        DefaultsKeys.username = value
     }
     if name == "wakeuptime" {
-        defaults.set(value, forKey: DefaultsKeys.wakeuptime)
+        DefaultsKeys.wakeuptime = value
     }
     if name == "sleepdifficulty" {
-        defaults.set(value, forKey: DefaultsKeys.sleepdifficulty)
+        DefaultsKeys.sleepdifficulty = value
     }
     if name == "wakeupnight" {
-        defaults.set(value, forKey: DefaultsKeys.wakeupnight)
+        DefaultsKeys.wakeupnight = value
     }
     if name == "wakeupearly" {
-        defaults.set(value, forKey: DefaultsKeys.wakeupearly)
+        DefaultsKeys.wakeupearly = value
     }
     if name == "tooknap" {
-        defaults.set(value, forKey: DefaultsKeys.tooknap)
+        DefaultsKeys.tooknap = value
     }
     if name == "onestart" {
-        defaults.set(value, forKey: DefaultsKeys.onestart)
+        DefaultsKeys.onestart = value
     }
     if name == "oneend" {
-        defaults.set(value, forKey: DefaultsKeys.oneend)
+        DefaultsKeys.oneend = value
     }
     if name == "twostart" {
-        defaults.set(value, forKey: DefaultsKeys.twostart)
+        DefaultsKeys.twostart = value
     }
     if name == "twoend" {
-        defaults.set(value, forKey: DefaultsKeys.twoend)
+        DefaultsKeys.twoend = value
     }
     if name == "threestart" {
-        defaults.set(value, forKey: DefaultsKeys.threestart)
+        DefaultsKeys.threestart = value
     }
     if name == "threeend" {
-        defaults.set(value, forKey: DefaultsKeys.threeend)
+        DefaultsKeys.threeend = value
     }
     if name == "bedtime" {
-        defaults.set(value, forKey: DefaultsKeys.bedtime)
+        DefaultsKeys.bedtime = value
     }
     if name == "fatiguelvl" {
-        defaults.set(value, forKey: DefaultsKeys.fatiguelvl)
+        DefaultsKeys.fatiguelvl = value
     }
     if name == "sleepinesslvl" {
-        defaults.set(value, forKey: DefaultsKeys.sleepinesslvl)
+        DefaultsKeys.sleepinesslvl = value
     }
 }
 
 func read_val(){
-    let defaults = UserDefaults.standard
-    if let stringOne = defaults.string(forKey: DefaultsKeys.username) {
-        print("username: ", stringOne) // Some String Value
-    }
-    if let stringOne = defaults.string(forKey: DefaultsKeys.wakeuptime) {
-        print("wakeuptime: ", stringOne) // Some String Value
-    }
-    if let stringOne = defaults.string(forKey: DefaultsKeys.sleepdifficulty) {
-        print("sleepdifficulty: ", stringOne) // Some String Value
-    }
-    if let stringOne = defaults.string(forKey: DefaultsKeys.wakeupnight) {
-        print("wakeupnight: ", stringOne) // Some String Value
-    }
-    if let stringOne = defaults.string(forKey: DefaultsKeys.wakeupearly) {
-        print("wakeupearly: ", stringOne) // Some String Value
-    }
-    if let stringOne = defaults.string(forKey: DefaultsKeys.tooknap) {
-        print("tooknap: ", stringOne) // Some String Value
-    }
-    if let stringOne = defaults.string(forKey: DefaultsKeys.onestart) {
-        print("onestart: ", stringOne) // Some String Value
-    }
-    if let stringOne = defaults.string(forKey: DefaultsKeys.oneend) {
-        print("oneend: ", stringOne) // Some String Value
-    }
-    if let stringOne = defaults.string(forKey: DefaultsKeys.twostart) {
-        print("twostart: ", stringOne) // Some String Value
-    }
-    if let stringOne = defaults.string(forKey: DefaultsKeys.twoend) {
-        print("twoend: ", stringOne) // Some String Value
-    }
-    if let stringOne = defaults.string(forKey: DefaultsKeys.threestart) {
-        print("threestart: ", stringOne) // Some String Value
-    }
-    if let stringOne = defaults.string(forKey: DefaultsKeys.threeend) {
-        print("threeend: ", stringOne) // Some String Value
-    }
-    if let stringOne = defaults.string(forKey: DefaultsKeys.bedtime) {
-        print("bedtime: ", stringOne) // Some String Value
-    }
-    if let stringOne = defaults.string(forKey: DefaultsKeys.fatiguelvl) {
-        print("fatiguelvl: ", stringOne) // Some String Value
-    }
-    if let stringOne = defaults.string(forKey: DefaultsKeys.sleepinesslvl) {
-        print("sleepinesslvl: ", stringOne) // Some String Value
-    }
+    print("username: ", DefaultsKeys.username) // Some String Value
+
+    print("wakeuptime: ", DefaultsKeys.wakeuptime) // Some String Value
+    
+    print("sleepdifficulty: ", DefaultsKeys.sleepdifficulty) // Some String Value
+    
+    print("wakeupnight: ", DefaultsKeys.wakeupnight) // Some String Value
+    
+    print("wakeupearly: ", DefaultsKeys.wakeupearly) // Some String Value
+    
+    print("tooknap: ", DefaultsKeys.tooknap) // Some String Value
+    
+    print("onestart: ", DefaultsKeys.onestart) // Some String Value
+    
+    print("oneend: ", DefaultsKeys.oneend) // Some String Value
+    
+    print("twostart: ", DefaultsKeys.twostart) // Some String Value
+    
+    print("twoend: ", DefaultsKeys.twoend) // Some String Value
+    
+    print("threestart: ", DefaultsKeys.threestart) // Some String Value
+    
+    print("threeend: ", DefaultsKeys.threeend) // Some String Value
+    
+    print("bedtime: ", DefaultsKeys.bedtime) // Some String Value
+    
+    print("fatiguelvl: ", DefaultsKeys.fatiguelvl) // Some String Value
+    
+    print("sleepinesslvl: ", DefaultsKeys.sleepinesslvl) // Some String Value
 }

@@ -21,7 +21,6 @@ struct NapView: View {
         NavigationView {
             VStack(spacing: 70){
                 Spacer()
-                TextField("", text: $emptySting)
                 HStack{
                     Text("Did you nap during the day? ")
                         .padding(.horizontal, 20)
@@ -87,7 +86,6 @@ struct NapView: View {
                         .cornerRadius(8)
                         .font(.title)
                 }
-                Spacer()
                 Spacer()
             }
             .edgesIgnoringSafeArea(.all)

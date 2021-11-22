@@ -15,9 +15,8 @@ struct BedTimeView: View {
     @State var sleeepinessLevel: String = ""
     var body: some View {
         NavigationView {
-            VStack(spacing: 60){
+            VStack(spacing: 30){
                 Spacer()
-                TextField("", text: $emptySting)
                 HStack{
                     Text("Bed Time:")
                         .font(.system(size: 22))
@@ -43,7 +42,6 @@ struct BedTimeView: View {
                     Divider()
                             .padding(.horizontal, 20)
                 }
-                Spacer()
                 VStack{
                 Text("During the day, what was your everage level of sleepiness?")
                     .font(.system(size: 14))
@@ -70,7 +68,6 @@ struct BedTimeView: View {
                         .cornerRadius(8)
                         .font(.title)
                 }
-                Spacer()
                 Spacer()
             }
             .edgesIgnoringSafeArea(.all)

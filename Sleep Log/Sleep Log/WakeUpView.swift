@@ -16,13 +16,12 @@ struct WakeUpView: View {
     @State private var selectedAns3 = "Select"
     var body: some View {
         NavigationView {
-            VStack(spacing: 70){
+            VStack(){
                 Spacer()
-                TextField("", text: $emptySting)
+                Spacer()
                 HStack{
                     Text("Wake-Up Time: ")
                         .font(.system(size: 22))
-                        
                     TextField("Enter Time Here", text: $wakeUpTime)
                         .padding(.all, 10)
                         .background(Color.white)

@@ -28,20 +28,18 @@ struct ContentView: View {
                     .cornerRadius(8)
                     .padding(.horizontal, 20)
                 if username != "" {
-                    Button(action: {print("hello")}, label: {
-                        NavigationLink(destination: HomePageView()
-                            .navigationBarBackButtonHidden(true)
-                            .navigationBarBackButtonHidden(true)
-                            .navigationBarHidden(true)) {
-                            Text("Continue To Home Screen")
-                                .padding(.vertical, 20)
-                                .frame(width: 370.0, height: 60.0)
-                                .background(Color.blue)
-                                .foregroundColor(.white)
-                                .cornerRadius(8)
-                                .font(.title)
-                        }
-                    })
+                    NavigationLink(destination: HomePageView()
+                        .navigationBarBackButtonHidden(true)
+                        .navigationBarBackButtonHidden(true)
+                        .navigationBarHidden(true)) {
+                        Text("Continue To Home Screen")
+                            .padding(.vertical, 20)
+                            .frame(width: 370.0, height: 60.0)
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(8)
+                            .font(.title)
+                    }
                 }
                 else {
                     if #available(iOS 15.0, *) {
