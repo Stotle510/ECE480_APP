@@ -1,9 +1,8 @@
-//
-//  NotificationListView.swift
-//  Sleep Log
-//
-//  Created by Hussain Atwain on 11/4/21.
-//
+//  Reminder Functionality
+//  NotificationListView.swift File
+//  Created by James Haville from GitHub
+//  https://github.com/jhaville/LocalNotificationsSampleApp
+//  Modified by: Abdullah Alenezi - Hamad Alrashdi - Hussain Atwain
 
 import SwiftUI
 

@@ -1,8 +1,8 @@
-//
-//  Helper.swift
-//  MyTimer
-//
-//
+//  Light Vision Timer
+//  Helper.swift File
+//  Created by BLCKBIRDS from GitHub
+//  https://github.com/BLCKBIRDS/SwiftUIBasics_Resources
+//  Modified by Abdullah Alenezi - Hamad Alrashdi
 
 import Foundation
 

@@ -1,8 +1,9 @@
-//
-//  Light_Vision_Timer
-//  MyTimer
-//
-//
+//  Light Vision Timer
+//  Light_Vision_View File
+//  Created by BLCKBIRDS from GitHub
+//  https://github.com/BLCKBIRDS/SwiftUIBasics_Resources
+//  Modified by Abdullah Alenezi - Hamad Alrashdi
+
 import SwiftUI
 
 struct Light_Vision_View: View {
